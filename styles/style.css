@@ -1,0 +1,50 @@
+/*@import url('https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap');*/
+
+@font-face {
+    font-family: 'Chicken Cripsy';
+    src: url("../fonts/Chicken Cripsy.otf");
+}
+
+.container {
+    margin: 30px;
+    height: 100%;
+    font-size: 20px;
+}
+
+.block {
+    /*Main styles*/
+    width: 400px;
+    height: 400px;
+    border: 2px solid black;
+    margin: 10px;
+    padding: 10px;
+    overflow: auto;
+    /*background: coral;*/
+
+    /*Fonts*/
+    font-family: 'Chicken Cripsy', sans-serif;
+    font-size: 1em;
+    font-weight: 900;
+    font-style: italic;
+    font-variant: normal;
+
+    /*Texts*/
+    text-align: justify;
+    line-height: 24px;
+    letter-spacing: 2px;
+    word-spacing: 10px;
+    text-decoration: line-through;
+
+    /*Background*/
+    /*background-image: url('../new-york.jpeg');*/
+    /*background-color: #000;*/
+    /*background-size: 200px 100px;*/
+    /*background-repeat: no-repeat;*/
+    /*background-position: 20px 100px;*/
+
+    /*background: linear-gradient(to bottom left, #000, red, #fff);*/
+    background: #ffffff url('../new-york.jpeg') no-repeat fixed center top;
+    background-size: cover;
+    /*border-radius: 50%;*/
+
+}
